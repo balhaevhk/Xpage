@@ -1,0 +1,280 @@
+@media screen and (max-width: 1800px) {
+  .container .main .main_learn .main_learn-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left {
+    margin: 0 auto;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-right .description-right-wrap {
+    display: none;
+  }
+  .container .footer .footer_desctop-title {
+    font-size: 30px;
+  }
+  .container .footer .footer_QR-code {
+    top: 100px;
+  }
+  .container .footer .desctop {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container .header .nav .nav_menu {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections {
+    max-width: 900px;
+    background-position: right;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections h3 {
+    font-size: 20px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections .description-left-tags {
+    font-size: 12px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches {
+    max-width: 900px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches h3 {
+    font-size: 20px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches .description-left-tags {
+    font-size: 12px;
+  }
+  .container .footer .footer_desctop-title {
+    font-size: 20px;
+    max-width: 600px;
+  }
+  .container .footer .footer_QR-code {
+    padding: 24px;
+    width: 235px;
+    height: 267px;
+    top: 150px;
+    right: 150px;
+  }
+  .container .footer .footer_QR-code > img {
+    max-width: 120px;
+  }
+  .container .footer .footer_QR-code .QR-code_device {
+    margin-top: 10px;
+  }
+  .container .footer .footer_QR-code .QR-code_action {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .container .footer .desctop {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container .header .nav {
+    position: relative;
+  }
+  .container .header .nav .nav_menu {
+    display: none;
+  }
+  .container .header .nav > img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .container .header .nav .nav_menu-mobile img {
+    width: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+  }
+  .container .header .nav .nav_menu-mobile span {
+    display: none;
+  }
+  .container .main .main_play .main_play-description .newsCard .newsCard-description h3 {
+    font-size: 20px;
+  }
+  .container .main .main_play .main_play-description .newsCard .newsCard-description p {
+    font-size: 14px;
+  }
+  .container .main .main_play .main_play-description .newsCard .newsCard-description a {
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections {
+    width: 700px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections h3 {
+    width: 272px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches {
+    width: 700px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches h3 {
+    width: 272px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 12px;
+  }
+  .container .header .nav > img {
+    width: 70px;
+    height: 32px;
+  }
+  .container .header .nav .nav_logo {
+    padding: 9px;
+  }
+  .container .header .nav .nav_logo span {
+    display: none;
+  }
+  .container .header .preview h1 {
+    font-size: 26px;
+    padding: 240px 12px 12px 12px;
+  }
+  .container .header .preview .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .container .header .preview .navigation a {
+    border-radius: 10px;
+    padding: 10px 14px;
+  }
+  .container .main .main_play .main_play-title h1 {
+    font-size: 26px;
+  }
+  .container .main .main_play .main_play-title a {
+    font-size: 14px;
+    width: 140px;
+  }
+  .container .main .main_play .main_play-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .container .main .main_learn .main_learn-title h1 {
+    font-size: 26px;
+  }
+  .container .main .main_learn .main_learn-title a {
+    font-size: 14px;
+    width: 140px;
+  }
+  .container .main .main_learn .main_learn-description {
+    padding: 0;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections {
+    background-image: url("images/main_mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches {
+    width: 500px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches h3 {
+    margin-bottom: 126px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches .description-left-tags {
+    max-width: 400px;
+  }
+  .container .footer .footer_app {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .container .footer .desctop {
+    right: -12px;
+    bottom: -12px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .container .header {
+    margin-bottom: 42px;
+  }
+  .container .main .main_play {
+    margin-bottom: 42px;
+  }
+  .container .main .main_play .main_play-title {
+    margin-bottom: 21px;
+  }
+  .container .main .main_play .main_play-description .newsCard > img {
+    margin-bottom: 28px;
+  }
+  .container .main .main_learn {
+    margin-bottom: 42px;
+  }
+  .container .main .main_learn .main_learn-title {
+    margin-bottom: 17px;
+  }
+  .container .main .main_learn .main_learn-description {
+    gap: 0;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections {
+    padding: 12px;
+    width: 296px;
+    height: 400px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections h3 {
+    margin-bottom: 220px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-sections .description-left-tags a {
+    font-size: 10px;
+    border-radius: 20px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches {
+    padding: 12px;
+    width: 296px;
+    height: 400px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches h3 {
+    margin-bottom: 126px;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches .description-left-tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .container .main .main_learn .main_learn-description .main_learn-description-left .description-left-coaches .description-left-tags a {
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 10px;
+    border-radius: 20px;
+    max-width: 218px;
+  }
+  .container .footer {
+    padding-top: 20px;
+  }
+  .container .footer .footer_desctop-title {
+    display: none;
+  }
+  .container .footer .footer_mobile-title {
+    display: block;
+    margin: 0;
+    color: #202020;
+    font-size: 20px;
+    max-width: 290px;
+  }
+  .container .footer p {
+    font-size: 10px;
+    margin-top: 165px;
+  }
+  .container .footer .footer_QR-code {
+    display: none;
+  }
+  .container .footer .desctop {
+    display: none;
+  }
+  .container .footer .mobile {
+    display: block;
+    position: absolute;
+    top: 215px;
+    right: -12px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container .header .preview.preview_image-1 {
+    background-image: url("images/mobile-header.png");
+  }
+}/*# sourceMappingURL=media.css.map */
