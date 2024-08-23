@@ -1,81 +1,17 @@
 @media screen and (max-width:1800px) {
     .container {
-        .header {
-            .nav {
-                > img {
-                }
-                .nav_logo {
-                    span {
-                    }
-                }
-            }
-            .preview {
-
-                h1 {
-                }
-                .navigation {
-                    a {
-                    }
-                }
-            }
-        }
         .main {
-            .main_play {
-                .main_play-title {
-                    h1 {
-                    }
-                    a {
-                    }
-                }
-                .main_play-description {
-                    .newsCard {
-                        .newsCard-description {
-                            h3 {
-                            }
-                            p {
-                            }
-                            a {
-                            }
-                        }
-                    }
-                }
-            }
             .main_learn {
-                
-                .main_learn-title {
-                    h1 {
-                    }
-                    a {
-                    }
-                }
                 .main_learn-description {
                     display: flex;
                     flex-direction: column;
                     margin: 0 auto;
                     .main_learn-description-left {
                         margin: 0 auto;
-                        .description-left-sections {
-                            .description-left-tags {
-                            }
-                        }
-                        .description-left-coaches {
-                        }
                     }
                     .main_learn-description-right {
                         .description-right-wrap {
                             display: none;
-                            .video_tutorials {
-                                .video_tutorials-content {
-                                }
-                            }
-                            .articles_tutorial {
-                                .articles_tutorial-content {
-                                }
-                            }
-                            .termin_tutorials {
-                                .termin_tutorials-content {
-                                }
-                            }
                         }
                     }
                 }
@@ -109,34 +45,7 @@
             }
         }
         .main {
-            .main_play {
-                .main_play-title {
-                    h1 {
-                    }
-                    a {
-                    }
-                }
-                .main_play-description {
-                    .newsCard {
-                        .newsCard-description {
-                            h3 {
-                            }
-                            p {
-                            }
-                            a {
-                            }
-                        }
-                    }
-                }
-            }
             .main_learn {
-                
-                .main_learn-title {
-                    h1 {
-                    }
-                    a {
-                    }
-                }
                 .main_learn-description {
                     .main_learn-description-left {
                         .description-left-sections {
@@ -158,23 +67,6 @@
                             }
                             .description-left-tags {
                                 font-size: 12px;
-                            }
-
-                        }
-                    }
-                    .main_learn-description-right {
-                        .description-right-wrap {
-                            .video_tutorials {
-                                .video_tutorials-content {
-                                }
-                            }
-                            .articles_tutorial {
-                                .articles_tutorial-content {
-                                }
-                            }
-                            .termin_tutorials {
-                                .termin_tutorials-content {
-                                }
                             }
                         }
                     }
@@ -242,9 +134,7 @@
         }
         .main {
             .main_play {
-                .main_play-title {
-                    
-                }
+
                 .main_play-description {
                     .newsCard {
                         .newsCard-description {
@@ -263,13 +153,6 @@
                 }
             }
             .main_learn {
-                
-                .main_learn-title {
-                    h1 {
-                    }
-                    a {
-                    }
-                }
                 .main_learn-description {
                     .main_learn-description-left {
                         .description-left-sections {
@@ -279,34 +162,12 @@
                             h3 {
                                 width: 272px;
                             }
-                            .description-left-tags {
-                            }
                         }
                         .description-left-coaches {
                             width: 700px;
     
                             h3 {
                                 width: 272px;
-
-                            }
-                            .description-left-tags {
-                            }
-    
-                        }
-                    }
-                    .main_learn-description-right {
-                        .description-right-wrap {
-                            .video_tutorials {
-                                .video_tutorials-content {
-                                }
-                            }
-                            .articles_tutorial {
-                                .articles_tutorial-content {
-                                }
-                            }
-                            .termin_tutorials {
-                                .termin_tutorials-content {
-                                }
                             }
                         }
                     }
@@ -366,16 +227,6 @@
                     flex-direction: column;
                     align-items: center;
                     gap: 8px;
-                    .newsCard {
-                        .newsCard-description {
-                            h3 {
-                            }
-                            p {
-                            }
-                            a {
-                            }
-                        }
-                    }
                 }
             }
             .main_learn {
@@ -397,9 +248,6 @@
                             background-position: center;
                             background-size: cover;
                             width: 500px;
-
-                            .description-left-tags {
-                            }
                         }
                         .description-left-coaches {
                             width: 500px;
@@ -413,42 +261,13 @@
                             }
                         }
                     }
-                    .main_learn-description-right {
-                        .description-right-wrap {
-                            .video_tutorials {
-                                .video_tutorials-content {
-                                }
-                            }
-                            .articles_tutorial {
-                                .articles_tutorial-content {
-                                }
-                            }
-                            .termin_tutorials {
-                                .termin_tutorials-content {
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }
         .footer {
-            .footer_desctop-title {
-            }
-
             .footer_app {
                 flex-direction: column;
                 gap: 24px;
-            }
-
-            .footer_QR-code {
-
-                > img {
-                }
-                .QR-code_device {
-                }
-                .QR-code_action {
-                }
             }
 
             .desctop {
@@ -463,45 +282,17 @@
     .container {
         .header {
             margin-bottom: 42px;
-            .nav {
-                > img {
-                }
-                .nav_logo {
-                    span {
-                    }
-                }
-            }
-            .preview {
-                h1 {
-                }
-                .navigation {
-                    a {
-                    }
-                }
-            }
         }
         .main {
             .main_play {
                 margin-bottom: 42px;
                 .main_play-title {
                     margin-bottom: 21px;
-                    h1 {
-                    }
-                    a {
-                    }
                 }
                 .main_play-description {
                     .newsCard {
                         > img {
                             margin-bottom: 28px;
-                        }
-                        .newsCard-description {
-                            h3 {
-                            }
-                            p {
-                            }
-                            a {
-                            }
                         }
                     }
                 }
@@ -510,10 +301,6 @@
                 margin-bottom: 42px;
                 .main_learn-title {
                     margin-bottom: 17px;
-                    h1 {
-                    }
-                    a {
-                    }
                 }
                 .main_learn-description {
                     gap: 0;
@@ -559,25 +346,6 @@
                                     max-width: 218px;
                                 }
                             }
-
-                            .description-left-tags {
-                            }
-                        }
-                    }
-                    .main_learn-description-right {
-                        .description-right-wrap {
-                            .video_tutorials {
-                                .video_tutorials-content {
-                                }
-                            }
-                            .articles_tutorial {
-                                .articles_tutorial-content {
-                                }
-                            }
-                            .termin_tutorials {
-                                .termin_tutorials-content {
-                                }
-                            }
                         }
                     }
                 }
@@ -597,9 +365,6 @@
                 max-width: 290px;
             }
 
-            .footer_app {
-            }
-
             p {
                 font-size: 10px;
                 margin-top: 165px;
@@ -607,13 +372,6 @@
 
             .footer_QR-code {
                 display: none;
-
-                > img {
-                }
-                .QR-code_device {
-                }
-                .QR-code_action {
-                }
             }
 
             .desctop {
@@ -632,23 +390,9 @@
 @media screen and (max-width: 350px) {
     .container {
         .header {
-            .nav {
-                > img {
-                }
-                .nav_logo {
-                    span {
-                    }
-                }
-            }
             .preview {
                 &.preview_image-1 {
                     background-image: url('images/mobile-header.png');
-                }
-                h1 {
-                }
-                .navigation {
-                    a {
-                    }
                 }
             }
         }
